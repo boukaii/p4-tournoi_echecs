@@ -38,7 +38,7 @@ class MainMenuController:
         """
             infos sur le tournois
         """
-        nom, lieu, date, nb_tour, tour, day, time, description = self.view.get_data_tournament()
+        nom, lieu, date, nb_tour, day, time, description = self.view.get_data_tournament()
         Tournament(nom=nom, lieu=lieu, date=date, nb_tour=nb_tour, day=day, time=time, description=description)
         """
             type de tournoi
