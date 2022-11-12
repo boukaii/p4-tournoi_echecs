@@ -2,7 +2,7 @@ class MainView:
 
     @classmethod
     def bienvenue(cls):
-        print("#" * 28 + " " + "Bienvenue cassandra" + " " + "#" * 28)
+        print("#" * 28 + " " + "Bienvenue" + " " + "#" * 28)
         print()
         welcome = input("#" * 20 + "(appuyer sur n'importe quel touche pour continuer: )" + "#" * 20)
         print()
@@ -15,7 +15,7 @@ class MainView:
         print("Taper '2' pour reprendre un tournoi")
         print("Taper '3' pour accéder aux rapports")
         print("Taper '4' pour quitter")
-        return int(input("bouff ton bras et fait pas chier ? "))
+        return int(input("Quel choix voulez vous faire ? "))
 
     @staticmethod
     def start_new_tournament():
@@ -84,19 +84,6 @@ class StartTournament:
     @classmethod
     def result_tour(cls):
         print("Veuillez entrer les résultats des jours")
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
